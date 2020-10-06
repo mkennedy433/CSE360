@@ -47,6 +47,7 @@ public class AddingMachine {
    * keeps track of the history
    * @param value is required and is the int that is the current value
    */
+  
   public void subtract (int value) { //subtracts new value to the total values 
 	  total -= value; 
 	  history += (" - " + value); //keep track of history
